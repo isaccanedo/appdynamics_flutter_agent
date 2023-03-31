@@ -1,0 +1,15 @@
+pre-push:
+  commands:
+    parallel: true
+    linter:
+      run: flutter analyze
+    tests:
+      run: flutter test
+    teamcity:
+      run: cd .teamcity; mvn verify; cd ..; rm -rf .teamcity/target;
+
+pre-commit:
+  commands:
+    pretty:
+      glob: '*.dart'
+      run: flutter format {staged_files} && git add {staged_files}

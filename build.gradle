@@ -1,0 +1,78 @@
+/*
+ * Copyright (c) 2022. AppDynamics LLC and its affiliates.
+ * All rights reserved.
+ *
+ */
+
+buildscript {
+    ext {
+        isCI = System.env['BUILD_ID'] != null && !System.env['BUILD_ID'].isEmpty();
+    }
+    if (isCI) {
+        apply from: "pipelib.gradle"
+    }
+}
+
+plugins {
+    id 'java-library-distribution'
+    id 'org.sonarqube' version '3.2.0'
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectName", project.name
+        property "sonar.projectVersion", version
+    }
+}
+
+// distribution
+//
+// Specify which files to .zip when publishing.
+distributions {
+    main {
+        distributionBaseName.set("rum-flutter")
+        contents {
+            // .gitignore exception
+            from(".idea/runConfigurations") {
+                into(".idea/runConfigurations")
+            }
+            from(".") {
+                def ignores = []
+                File rootIgnore = file(".gitignore")
+                rootIgnore.eachLine { line ->
+                    if (!line.startsWith('#') && !line.isEmpty()) {
+                        ignores.add(line)
+                    }
+                }
+
+                File exampleIgnore = file("example/.gitignore")
+                exampleIgnore.eachLine { line ->
+                    if (!line.startsWith('#') && !line.isEmpty()) {
+                        ignores.add("example/" + line)
+                    }
+                }
+                exclude ignores
+            }
+        }
+    }
+}
+
+task installPackages(type: Exec) {
+    commandLine "./tool/flutter-get.sh"
+}
+
+task analyze(type: Exec) {
+    commandLine "./tool/flutter-analyze.sh"
+}
+
+task runUnitTests(type: Exec) {
+    commandLine "./tool/flutter-test.sh"
+}
+
+task generateDocs(type: Exec) {
+    commandLine "./tool/generate-docs.sh"
+}
+
+task viewDocs(type: Exec) {
+    commandLine "./tool/view-docs.sh"
+}
