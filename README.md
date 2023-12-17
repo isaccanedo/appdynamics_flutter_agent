@@ -2,13 +2,13 @@
 
 # AppDynamics Flutter Plugin
 
-Extension of the AppDynamics SDK that allows you to instrument Flutter apps and receive analytics.
+Extensão do AppDynamics SDK que permite instrumentar aplicativos Flutter e receber análises.
 
-This plugin wraps the native SDKs and requires a valid AppDynamics mobile license.
+Este plug-in envolve os SDKs nativos e requer uma licença móvel válida do AppDynamics.
 
-## Features
+## Características
 
-The Flutter agent incorporates the following features:
+O agente Flutter incorpora os seguintes recursos:
 
 * Network request tracking via
   the [TrackedHTTPClient](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/TrackedHttpClient-class.html)
