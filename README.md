@@ -10,8 +10,8 @@ Este plug-in envolve os SDKs nativos e requer uma licença móvel válida do App
 
 O agente Flutter incorpora os seguintes recursos:
 
-* Network request tracking via
-  the [TrackedHTTPClient](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/TrackedHttpClient-class.html)
+* Rastreamento de solicitação de rede via
+  o [TrackedHTTPClient](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/TrackedHttpClient-class.html)
   and [RequestTracker](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/RequestTracker-class.html)
   classes.
 * Automatic crash reporting
