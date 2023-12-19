@@ -15,9 +15,9 @@ O agente Flutter incorpora os seguintes recursos:
    o [TrackedHTTPClient](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/TrackedHttpClient-class.html)
    e [RequestTracker](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/RequestTracker-class.html)
    Classes.
-* Automatic crash reporting
-  and [CrashReportCallback](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/CrashReportCallback.html)
-  for extra crash report configuration.
+* Relatório automático de falhas
+   e [CrashReportCallback](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/CrashReportCallback.html)
+   para configuração extra do relatório de falhas.
 * Screen tracking
   via [NavigationObserver](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/NavigationObserver-class.html)
   and [WidgetTracker](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/WidgetTracker-class.html).
