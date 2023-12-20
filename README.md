@@ -18,9 +18,9 @@ O agente Flutter incorpora os seguintes recursos:
 * Relatório automático de falhas
    e [CrashReportCallback](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/CrashReportCallback.html)
    para configuração extra do relatório de falhas.
-* Screen tracking
-  via [NavigationObserver](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/NavigationObserver-class.html)
-  and [WidgetTracker](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/WidgetTracker-class.html).
+*Rastreamento de tela
+   via [NavigationObserver](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/NavigationObserver-class.html)
+   e [WidgetTracker](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/WidgetTracker-class.html).
 * Automatic detection and reporting of the app-is-not-responding cases (ANR).
 * [SessionFrame](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/SessionFrame-class.html)
   mechanism to track custom user flows in the app.
