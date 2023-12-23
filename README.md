@@ -24,9 +24,9 @@ O agente Flutter incorpora os seguintes recursos:
 * Detecção e relatório automáticos de casos de aplicativo que não responde (ANR).
 * [SessionFrame](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/SessionFrame-class.html)
  mecanismo para rastrear fluxos de usuários personalizados no aplicativo.
-* [Errors](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/errorHandler.html)
-  and [custom metrics](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/reportMetric.html)
-  reporting.
+* [Erros](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/errorHandler.html)
+   e [métricas personalizadas](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/reportMetric.html)
+   comunicando.
 * Automatic capture of screenshots and user touch-points (iOS only).
 * Custom user data on network requests, crash reports, or sessions.
 * Report [breadcrumbs](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/leaveBreadcrumb.html)
