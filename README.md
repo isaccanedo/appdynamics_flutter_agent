@@ -39,12 +39,12 @@ to track UI widgets or custom user interactions.
   into [multiple sessions](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/startNextSession.html).
 * Automatically report device metrics (memory, storage, battery) and connection transition events.
 
-# Getting started
+# Começando
 
-## Installation
+## Instalação
 
-You can install the Flutter plugin via `flutter` — more info on
-the [Installation tab](https://pub.dev/packages/appdynamics_agent/install).
+Você pode instalar o plugin Flutter via `flutter` — mais informações em
+na [guia Instalação](https://pub.dev/packages/appdynamics_agent/install).
 
 ```
 $ flutter pub add appdynamics_agent
