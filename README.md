@@ -27,10 +27,10 @@ O agente Flutter incorpora os seguintes recursos:
 * [Erros](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/errorHandler.html)
    e [métricas personalizadas](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/reportMetric.html)
    comunicando.
-* Automatic capture of screenshots and user touch-points (iOS only).
-* Custom user data on network requests, crash reports, or sessions.
-* Report [breadcrumbs](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/leaveBreadcrumb.html)
-to track UI widgets or custom user interactions.
+* Captura automática de capturas de tela e pontos de contato do usuário (somente iOS).
+* Dados personalizados do usuário sobre solicitações de rede, relatórios de falhas ou sessões.
+* Relatório [breadcrumbs](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/leaveBreadcrumb.html)
+para rastrear widgets de UI ou interações personalizadas do usuário.
 * [Timers](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/startTimer.html)
   to track events that span across multiple methods.
 * Mark method execution
