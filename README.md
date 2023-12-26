@@ -31,8 +31,8 @@ O agente Flutter incorpora os seguintes recursos:
 * Dados personalizados do usuário sobre solicitações de rede, relatórios de falhas ou sessões.
 * Relatório [breadcrumbs](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/leaveBreadcrumb.html)
 para rastrear widgets de UI ou interações personalizadas do usuário.
-* [Timers](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/startTimer.html)
-  to track events that span across multiple methods.
+* [Temporizadores](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/startTimer.html)
+   para rastrear eventos que abrangem vários métodos.
 * Mark method execution
   as [info points](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/trackCall.html).
 * Split app instrumentation
