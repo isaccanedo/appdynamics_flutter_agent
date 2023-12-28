@@ -33,11 +33,11 @@ O agente Flutter incorpora os seguintes recursos:
 para rastrear widgets de UI ou interações personalizadas do usuário.
 * [Temporizadores](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/startTimer.html)
    para rastrear eventos que abrangem vários métodos.
-* Mark method execution
-  as [info points](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/trackCall.html).
-* Split app instrumentation
-  into [multiple sessions](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/startNextSession.html).
-* Automatically report device metrics (memory, storage, battery) and connection transition events.
+* Marcar execução do método
+   como [pontos de informação](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/trackCall.html).
+* Dividir instrumentação de aplicativos
+   em [várias sessões](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/startNextSession.html).
+* Relatar automaticamente métricas de dispositivos (memória, armazenamento, bateria) e eventos de transição de conexão.
 
 # Começando
 
