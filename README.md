@@ -52,7 +52,7 @@ $ flutter pub add appdynamics_agent
 
 ## Extra configuration for Android apps:
 
-1. Add the following changes to `android/build.gradle`:
+1. Adicione as seguintes alterações em `android/build.gradle`:
 
 ```groovy
 dependencies {
