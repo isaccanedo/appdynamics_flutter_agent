@@ -61,7 +61,7 @@ dependencies {
 }
 ```
 
-2. Apply the `adeum` plugin to the bottom of the `android/app/build.gradle` file:
+2. Aplique o plugin `adeum` na parte inferior do arquivo `android/app/build.gradle`:
 
 ```groovy
 dependencies {
