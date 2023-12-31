@@ -72,7 +72,7 @@ dependencies {
 apply plugin: 'adeum'
 ```
 
-3. Add the following permissions to your `AndroidManifest.xml` (usually in `android/src/main/`):
+3. Adicione as seguintes permissões ao seu `AndroidManifest.xml` (geralmente em `android/src/main/`):
 
 ```xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
