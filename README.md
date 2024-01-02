@@ -68,7 +68,7 @@ dependencies {
     // ... project dependencies
 }
 
-// Bottom of file
+// Parte inferior do arquivo
 apply plugin: 'adeum'
 ```
 
