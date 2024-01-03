@@ -90,7 +90,7 @@ apply plugin: 'adeum'
 </manifest>
 ```
 
-## Start instrumentation
+## Iniciar instrumentação
 
 > **_NOTE:_** Replace `<EUM_APP_KEY>` with your app key.
 
