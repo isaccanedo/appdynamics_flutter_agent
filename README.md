@@ -1,4 +1,4 @@
-[![Pub Version](https://img.shields.io/pub/v/appdynamics_agent)](https://pub.dev/packages/appdynamics_agent)
+[![Versão do pub](https://img.shields.io/pub/v/appdynamics_agent)](https://pub.dev/packages/appdynamics_agent)
 
 # AppDynamics Flutter Plugin
 
