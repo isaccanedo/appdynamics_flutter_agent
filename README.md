@@ -39,7 +39,7 @@ para rastrear widgets de UI ou interações personalizadas do usuário.
    em [várias sessões](https://pub.dev/documentation/appdynamics_agent/latest/appdynamics_agent/Instrumentation/startNextSession.html).
 * Relatar automaticamente métricas de dispositivos (memória, armazenamento, bateria) e eventos de transição de conexão.
 
-# Começando
+# Iniciando
 
 ## Instalação
 
