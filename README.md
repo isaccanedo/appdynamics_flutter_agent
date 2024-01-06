@@ -50,7 +50,7 @@ na [guia Instalação](https://pub.dev/packages/appdynamics_agent/install).
 $ flutter pub add appdynamics_agent
 ```
 
-## Configuração extra para aplicativos Android:
+## Configuração extra para aplicativos Android
 
 1. Adicione as seguintes alterações em `android/build.gradle`:
 
