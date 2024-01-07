@@ -115,6 +115,6 @@ Future<void> main() async {
 
 # Documentos
 
-You can access [pub.dev docs](https://pub.dev/documentation/appdynamics_agent/latest/) or check
-the [official docs](https://docs.appdynamics.com/22.3/en/end-user-monitoring/mobile-real-user-monitoring/instrument-flutter-applications/customize-the-flutter-instrumentation)
-for extra customization of the agent.
+Você pode acessar [documentos pub.dev](https://pub.dev/documentation/appdynamics_agent/latest/) ou verificar
+os [documentos oficiais](https://docs.appdynamics.com/22.3/en/end-user-monitoring/mobile-real-user-monitoring/instrument-flutter-applications/customize-the-flutter-instrumentation)
+para personalização extra do agente.
