@@ -1,6 +1,6 @@
 [![Versão do pub](https://img.shields.io/pub/v/appdynamics_agent)](https://pub.dev/packages/appdynamics_agent)
 
-# AppDynamics Flutter Plugin
+# Plug-in AppDynamics Flutter
 
 Extensão do AppDynamics SDK que permite instrumentar aplicativos Flutter e receber análises.
 
