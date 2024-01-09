@@ -82,7 +82,7 @@ apply plugin: 'adeum'
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <!-- other permissions -->
+    <!-- outras permissões -->
 
     <application>
         <!-- other settings -->
